@@ -106,23 +106,3 @@ class Vegetable(Plant):
         print(f"[make {self.name} grow and age for {days} days]")
         for i in range(1, days + 1):
             self.grow()
-
-
-if __name__ == "__main__":
-    print("=== Garden Plant Types ===")
-    print("=== Flower")
-    Flower1 = Flower("Rose", 15, 10, "red")
-    Flower1.show()
-    Flower1.bloom()
-    Flower1.show()
-    print("\n")
-    print("=== Tree")
-    Tree1 = Tree("oak", 200, 365, 5)
-    Tree1.show()
-    Tree1.produce_shade()
-    print("\n")
-    print("=== Vegetable")
-    Vegetable1 = Vegetable("Tomato", 5, 10, "April")
-    Vegetable1.show()
-    Vegetable1.long_grow(20)
-    Vegetable1.show()
