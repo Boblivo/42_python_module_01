@@ -82,8 +82,9 @@ class Tree(Plant):
 
     def produce_shade(self) -> None:
         print(f"[asking the {self.name} to produce shade]")
-        print(f"Tree {self.name.capitalize()} now produces a shade of"
-              f"{self.get_height():.1f}cm long and {self.diameter:1f}cm wide.")
+        print(f"Tree {self.name.capitalize()} now produces a shade of "
+              f"{self.get_height():.1f}cm long and "
+              f"{self.diameter:.1f}cm wide.")
 
 
 class Vegetable(Plant):
